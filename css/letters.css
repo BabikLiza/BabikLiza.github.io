@@ -1,0 +1,97 @@
+
+
+#letters .container-fluid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	padding: 120px 10% 20px;
+	position: relative;
+}
+
+#letters .container-fluid::before {
+	background-color: #555;
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translateX(-50%);
+	width: 1px;
+	height: 100px;
+}
+
+.zagolovok_1{
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	font-family: Raleway;
+	font-weight: lighter;
+	padding: 10px;
+}
+
+.zagolovok_2{
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	font-family: Raleway;
+	font-weight: lighter;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+#letters h4 {
+	color: #fff;
+	font-size: 1rem;
+	line-height:1.5;
+	text-align: center;
+	max-width: 400px;
+	margin: auto;
+	width:100%;
+	font-weight: lighter;
+}
+
+.box {
+	width: 50%;
+}
+
+.b1 {
+	padding-right: 20px;
+}
+
+.b2 {
+	padding-left: 20px;
+}
+
+.box img {
+	display: block;
+	width: 100%;
+
+}
+
+
+@media screen and (max-width:767px) and (orientation: portrait) {
+	
+	#letters .container-fluid {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	#letters .container-fluid::before {
+		width: 0;
+		height: 0;
+		visibility: hidden;
+		opacity: 0;
+	}
+
+	.box {
+		width: 100%;
+		max-width: 400px;
+		margin-bottom: 30px;
+	}
+
+	.b1, .b2 {
+		padding-right: 0;
+		padding-left: 0;
+
+}

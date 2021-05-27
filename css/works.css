@@ -1,0 +1,37 @@
+
+
+
+#works {
+	background-color: #000;
+	min-height:0;
+	padding: 1%;
+}
+
+#works .slider {
+	margin: auto;
+	padding: 5%;
+}
+
+.slider .item img {
+	display: block;
+	max-height: 65vh;
+	margin: auto;
+}
+
+#works h4 {
+	color: #fff;
+	max-width: 400px;
+	margin: auto;
+	text-align: center;
+	font-size;
+	line-height: 1.5;
+	font-weight: lighter;
+}
+
+@media screen and (max-aspect-ratio: 1/1) {
+
+	.slider .item img {
+		max-width: 100%;
+		max-height: 100%;
+	}	
+}

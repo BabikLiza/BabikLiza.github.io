@@ -1,0 +1,57 @@
+
+
+
+#angeles .container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: center;
+	position: relative;
+	padding: 120px 0 20px;
+}
+
+
+.dry {
+	width: 50%;
+}
+
+.n1 {
+	width: 50%;
+	padding-right: 100px;
+}
+
+.n2 {
+	width: 40%;
+	padding-left: 100px;
+	height: 815px;
+}
+
+.n3 {
+	transform: translateY(-300px);
+	transform: translateX(200px);
+	width: 70%;
+	height: 120px;
+}
+
+.n4 {
+	width: 50%;
+}
+
+.dry img {
+	display: block;
+	width: 100%;
+}
+
+#angeles .container::before {
+	background-color: #555;
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translateX(-50%);
+	width: 1px;
+	height: 100px;
+}
+
+
